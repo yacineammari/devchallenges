@@ -1,0 +1,56 @@
+
+body {
+  background-color: #FFFFFF;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+
+
+.App h1 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #4F4F4F;
+}
+
+.App h5 {
+  font-family: 'Ubuntu Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  color: #333333;
+  margin: 0rem;
+  padding: 0rem;
+
+  margin-bottom: 0.25rem;
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;  
+  width: 50%;
+}
+
+.App h3 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #A9A9A9;
+}
+
+.btn-sub-container {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
